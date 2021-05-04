@@ -1,12 +1,13 @@
-# HEART-DISEASE-PREDICTION-USING-MACHINE-LEARNING
+# HEART DISEASE PREDICTION USING MACHINE LEARNING
 
-HEART DISEASE PREDICTION USING MACHINE LEARNING
-
-INTRODUCTION
+## INTRODUCTION
 Heart disease is an umbrella term used to describe a range of conditions such as blood vessel diseases, coronary artery diseases, heart defects and many more. The term is often used interchangeably with ‘Cardiovascular Disease’, though cardiovascular disease (CAD) is a specific class of disease that includes heart attacks, chest pains, angina, stroke etc. Heart disease continues to be the leading cause of death globally, according to the Annual Heart Disease and Strokes Statistics Update from the American Heart Association. For the purpose of providing appropriate results and making effective decisions on data, some advanced data mining techniques are used.
-ABSTRACT
+
+## ABSTRACT
+
 Health care industries collect huge amounts of data using which patterns can be established to gather more information. Here, we use data collected from a hospital in Cleveland from the UCI repository. Machine Learning proves to be effective in making decisions and predictions from large quantities of data. I will be applying and comparing various approaches of Machine Learning to help discover whether one suffers from heart disease or not, using the mentioned dataset. It enables relationships between medical factors related to heart disease and mathematical patterns, to be established.
-DATA COLLECTED
+
+## DATA COLLECTED
 The dataset consists of information pertaining to 303 individuals. There are 14 columns, each serving as a different parameter used for prediction. 
 1.	Age: displays the age of the individual.
 2.	Sex: displays the gender of the individual under the following format:
@@ -61,7 +62,8 @@ b. Unstable Angina
 c. Variant (Prinz metal) Angina 
 d. Microvascular Angina.
 10.	Peak exercise ST segment: A treadmill ECG stress test is considered abnormal when there is a horizontal or down-sloping ST-segment depression ≥ 1 mm at 60–80ms after the J point. Exercise ECGs with up-sloping ST-segment depressions are typically reported as an ‘equivocal’ test. In general, the occurrence of horizontal or down-sloping ST-segment depression at a lower workload (calculated in METs) or heart rate indicates a worse prognosis and higher likelihood of multi-vessel disease. The duration of ST-segment depression is also important, as prolonged recovery after peak stress is consistent with a positive treadmill ECG stress test. Another finding that is highly indicative of significant CAD is the occurrence of ST-segment elevation > 1 mm (often suggesting transmural ischemia); these patients are frequently referred urgently for coronary angiography.
-MACHINE LEARNING APPROACH
+
+## MACHINE LEARNING APPROACH
 The following algorithms were applied in this project-
 ●	SVM
 ●	Naive Bayes
@@ -69,7 +71,7 @@ The following algorithms were applied in this project-
 ●	Decision Tree
 ●	Random Forest
 
-DATA ANALYSIS
+## DATA ANALYSIS
 
 We plot the data acquired to simplify it by visualising. ‘0’ indicates that the individual investigated was not suffering from heart diseases; ‘1’ indicates that the individual is diagnosed with a certain heart related disease. We see that most people who are suffering are 58 years old, followed by those who are 57. A majority of individuals above the age of 50 are diagnosed with heart diseases.
  
@@ -79,13 +81,13 @@ Next, we plot the age and gender of the individuals.
 
 It is evident that females diagnosed with the disease are much older than males diagnosed with the same.
 
-TRAINING DATASET
+## TRAINING DATASET
  
 The confusion matrix was used as the evaluation metric.
 
  
 
-PREDICTIONS PROCURED
+## PREDICTIONS PROCURED
 
 ●	SVM
   
@@ -120,25 +122,6 @@ Summarising the system of prediction and comparing using Machine Learning, I hav
 The highest accuracy recorded for the test set was achieved by Logistic Regression and SVM, equal to 80.32%. The highest accuracy for the training set is 100%, achieved by Decision Tree.
 The algorithms were implemented using default parameters.
 
-BIBLIOGRAPHY
-
-1.	https://archive.ics.uci.edu/ml/datasets/Heart+Disease
-
-2.	https://archive.ics.uci.edu/ml/index.php
-
-3.	https://en.wikipedia.org/wiki/Cardiovascular_disease#:~:text=Cardiovascular%20disease%20(CVD)%20is%20a,known%20as%20a%20heart%20attack)
-
-4.	https://www.healio.com/news/cardiology/20210127/aha-heart-disease-remains-leading-cause-of-death-worldwide-trends-discouraging#:~:text=In%202019%2C%20the%20latest%20year,leading%20cause%20of%20death%20worldwide
-
-5.	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5863635/#:~:text=The%20EHDPS%20predicts%20the%20likelihood,and%20patterns%2C%20to%20be%20established
-
-6.	https://www.ijert.org/heart-disease-prediction-using-machine-learning
-
-7.	https://www.kaggle.com/ronitf/heart-disease-uci
-
-8.	https://www.kaggle.com/ronitf/predicting-heart-disease
-
-9.	https://www.kaggle.com/cdabakoglu/heart-disease-classifications-machine-learning 
 
 
 

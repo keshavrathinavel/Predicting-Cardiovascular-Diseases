@@ -45,6 +45,7 @@ else: 0 (false)
 0 = absence
 1, 2, 3, 4 = present.
  
+ ![image](https://user-images.githubusercontent.com/73035121/117058154-ea450680-ad3b-11eb-9ee7-68b110993f6d.png)
 
 The mentioned parameters were taken into consideration due to the following:
 1.	Age: Age is the most important risk factor in developing cardiovascular or heart diseases, with approximately triple the risk with the passing of each decade of life. Coronary fatty streaks may begin forming in adolescence. It is estimated that 82 percent of people who die of coronary heart disease are 65 and older. Additionally, the risk of stroke doubles every decade after age 55.

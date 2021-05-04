@@ -75,10 +75,12 @@ The following algorithms were applied in this project-
 ## DATA ANALYSIS
 
 We plot the data acquired to simplify it by visualising. ‘0’ indicates that the individual investigated was not suffering from heart diseases; ‘1’ indicates that the individual is diagnosed with a certain heart related disease. We see that most people who are suffering are 58 years old, followed by those who are 57. A majority of individuals above the age of 50 are diagnosed with heart diseases.
+
+![image](https://user-images.githubusercontent.com/73035121/117058298-13fe2d80-ad3c-11eb-9a05-69de244f3a89.png)
  
 Next, we plot the age and gender of the individuals.
 
- 
+![image](https://user-images.githubusercontent.com/73035121/117058314-1791b480-ad3c-11eb-89ab-cea9aba39108.png)
 
 It is evident that females diagnosed with the disease are much older than males diagnosed with the same.
 
@@ -86,12 +88,13 @@ It is evident that females diagnosed with the disease are much older than males 
  
 The confusion matrix was used as the evaluation metric.
 
- 
+ ![image](https://user-images.githubusercontent.com/73035121/117058326-1bbdd200-ad3c-11eb-88e4-30e27fac7141.png)
 
 ## PREDICTIONS PROCURED
 
 ●	SVM
-  
+
+![image](https://user-images.githubusercontent.com/73035121/117058337-1e202c00-ad3c-11eb-9ac8-c45099e387b4.png)
  
 Accuracy for SVM for training set = ((124+100)/(5+13+124+100))*100 = 92.51%
 Accuracy for SVM for test set = 80.32%
@@ -100,22 +103,27 @@ Similarly, we see the matrices developed for each classifier.
 
 ●	NAÏVE BAYES
 
- 
+ ![image](https://user-images.githubusercontent.com/73035121/117058339-20828600-ad3c-11eb-9df2-dd5c4c30e0ef.png)
 
 ●	LOGISTIC REGRESSION
 
-    
+  ![image](https://user-images.githubusercontent.com/73035121/117058343-237d7680-ad3c-11eb-9124-0ff9f0214706.png) 
 
 ●	DECISION TREE
 
+  ![image](https://user-images.githubusercontent.com/73035121/117058353-25dfd080-ad3c-11eb-8dcd-e35ca9e6cf48.png)
               
 ●	RANDOM FOREST
 
-           
+  ![image](https://user-images.githubusercontent.com/73035121/117058363-28422a80-ad3c-11eb-9b8f-96e3549f7d22.png)      
 
 Summarising the system of prediction and comparing using Machine Learning, I have listed the accuracies of all the classifiers. 
 
- 
+![image](https://user-images.githubusercontent.com/73035121/117058385-2f693880-ad3c-11eb-9c28-02c9bea08831.png)
+![image](https://user-images.githubusercontent.com/73035121/117058400-32fcbf80-ad3c-11eb-939e-6a14e798f196.png)
+![image](https://user-images.githubusercontent.com/73035121/117058415-36904680-ad3c-11eb-90f2-2f6e99156bcb.png)
+![image](https://user-images.githubusercontent.com/73035121/117058424-398b3700-ad3c-11eb-9700-e6d033388b05.png)
+![image](https://user-images.githubusercontent.com/73035121/117058433-3bed9100-ad3c-11eb-8b4f-5e1a0ffa9db2.png)
  
  
   
